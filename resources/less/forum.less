@@ -1,21 +1,34 @@
 .IndexPage {
 
   @media (min-width: 992px) {
-
     .sideNav,
     .sideNav>ul {
       width: 220px;
     }
+    .nav_Navigation {
+        background: #fff;
+        box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.15);
+        border-radius: 0.5rem;
+        padding: 10px;
+      }
   }
 
   @media (min-width: 768px) and (max-width: 991px) {
     .OnlineUsers {
       display: none;
     }
-
+    .nav_Navigation {
+        background: #fff;
+        box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.15);
+        border-radius: 0.5rem;
+        padding: 10px;
+      }
   }
 
   @media (max-width: 768px) {
+    .OnlineUsers {
+        display: none;
+      }
     .DiscussionList {
         margin: 0px;
     }
